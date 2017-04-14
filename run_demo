@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+from demo import check_code, say_hello
+
+if check_code():
+    print(say_hello("Travis"))
+else:
+    print("I don't know you")
